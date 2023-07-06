@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .center {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .form-container {
+      display: inline-block;
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 20px;
+      width: 300px;
+    }
+
+    .form-container h2 {
+      margin-top: 0;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    .form-container input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .form-container input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <div class="center">
+    <div class="form-container">
+      <h2>Farmer Registration</h2>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Register">
+      </form>
+    </div>
+
+    <div class="form-container">
+      <h2>Customer Registration</h2>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Register">
+      </form>
+    </div>
+
+    <div class="form-container">
+      <h2>Admin Registration</h2>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Register">
+      </form>
+    </div>
+  </div>
+</body>
+</html>

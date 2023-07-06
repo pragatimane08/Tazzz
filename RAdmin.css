@@ -1,0 +1,51 @@
+body {
+    margin: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOS97twK-e6zpEySYQy4_ajVVZ9uN2zXoDvA&usqp=CAU');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .container h2 {
+    text-align: center;
+  }
+
+  .container input[type="text"],
+  .container input[type="password"],
+  .container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+  }
+.form-group .Log-in{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #1815d6;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.form-group .Log-out{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e70b0b;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
